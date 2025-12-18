@@ -1,5 +1,5 @@
-import CardDetails from "../../CardDetails.jsx";
-import DeliveryOptions from "../../DeliveryOptions.jsx";
+import CardDetails from "./details/CardDetails";
+import DeliveryOptions from "./details/DeliveryOptions";
 
 function CardGrid({ cartItem, deliveryOptions }) {
   return (

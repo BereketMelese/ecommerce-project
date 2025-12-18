@@ -1,5 +1,5 @@
-import DeliveryDate from "./DeliveryDate";
-import CardGrid from "./CardGrid";
+import DeliveryDate from "./cartItem/DeliveryDate";
+import CardGrid from "./cartItem/CardGrid";
 
 function OrderSummary({ deliveryOptions, cart }) {
   return (

@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import ImageContainer from "./details/details-grid/ImageContainer";
 import ProductActions from "./details/details-grid/ProductActions";
 import ProductDetails from "./details/details-grid/ProductDetails";
