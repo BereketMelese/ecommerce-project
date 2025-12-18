@@ -20,7 +20,7 @@ function OrderGrid({ orders }) {
 
                     <ProductDetails orderProduct={orderProduct} />
 
-                    <ProductActions />
+                    <ProductActions order={order} orderProduct={orderProduct} />
                   </Fragment>
                 );
               })}

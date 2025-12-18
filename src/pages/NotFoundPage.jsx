@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 import "./NotFoundPage.jsx";
 
-function NotFoundPage() {
+function NotFoundPage({ cart }) {
   const styles = {
     container: {
       maxWidth: "850px",
@@ -109,7 +109,7 @@ function NotFoundPage() {
 
   return (
     <>
-      <Header />
+      <Header cart={cart} />
       <div style={styles.container}>
         <div style={styles.notFoundContent}>
           <div style={styles.codeWrapper}>

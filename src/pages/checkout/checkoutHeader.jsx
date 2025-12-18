@@ -2,7 +2,7 @@ import "./CheckoutHeader.css";
 import logo from "../../assets/images/logo.png";
 import mobileLogo from "../../assets/images/mobile-logo.png";
 
-function checkoutHeader() {
+function checkoutHeader({ cart }) {
   return (
     <div className="checkout-header">
       <div className="header-content">
@@ -16,7 +16,7 @@ function checkoutHeader() {
         <div className="checkout-header-middle-section">
           Checkout (
           <a className="return-to-home-link" href="/">
-            3 items
+            {cart.length} items
           </a>
           )
         </div>

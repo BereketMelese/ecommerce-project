@@ -79,3 +79,19 @@
   border-radius: 50px;
   width: 50%;
 }
+
+.progress-label.completed {
+  color: green;
+  font-weight: bold;
+}
+
+.progress-label.delivered {
+  color: #1a73e8;
+  font-weight: bold;
+}
+
+.progress-percentage {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
