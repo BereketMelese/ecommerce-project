@@ -128,6 +128,10 @@
 
 .home-page .product-spacer {
   flex: 1;
+  height: 30px; /* Fixed height */
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
 }
 
 .home-page .added-to-cart {
@@ -142,6 +146,11 @@
      be invisible. Use JavaScript to change the
      opacity and make it visible. */
   opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.home-page .added-to-cart.visible {
+  opacity: 1;
 }
 
 .home-page .added-to-cart img {
