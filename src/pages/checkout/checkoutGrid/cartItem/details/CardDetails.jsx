@@ -6,6 +6,7 @@ function CardDetails({ cartItem, loadCart }) {
     await axios.delete(`api/cart-items/${cartItem.productId}`);
     await loadCart();
   };
+
   return (
     <div className="cart-item-details">
       <div className="product-name">{cartItem.product.name}</div>

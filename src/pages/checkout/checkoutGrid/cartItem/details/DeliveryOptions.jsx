@@ -14,7 +14,6 @@ function DeliveryOptions({ deliveryOptions, cartItem, loadCart }) {
 
         const updateDeliveryOption = async () => {
           await axios.put(`/api/cart-items/${cartItem.productId}`, {
-            quantity: cartItem.quantity,
             deliveryOptionId: deliveryOption.id,
           });
 
