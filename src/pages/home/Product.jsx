@@ -77,7 +77,7 @@ function Product({ product, loadCart }) {
         className="add-to-cart-button button-primary"
         onClick={addToCart}
         disabled={isAdding}
-        aria-label={`Add ${quantity} ${product.name} to cart`}
+        aria-label={` `}
       >
         {isAdding ? "Adding" : "Add to cart"}
       </button>
