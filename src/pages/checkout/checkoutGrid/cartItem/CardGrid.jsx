@@ -6,7 +6,7 @@ function CardGrid({ cartItem, deliveryOptions, loadCart }) {
     <div className="cart-item-details-grid">
       <img className="product-image" src={cartItem.product.image} />
 
-      <CardDetails cartItem={cartItem} />
+      <CardDetails cartItem={cartItem} loadCart={loadCart} />
 
       <DeliveryOptions
         deliveryOptions={deliveryOptions}
