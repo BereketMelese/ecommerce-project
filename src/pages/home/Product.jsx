@@ -74,6 +74,7 @@ function Product({ product, loadCart }) {
       )}
 
       <button
+        data-testid="add-to-cart-button"
         className="add-to-cart-button button-primary"
         onClick={addToCart}
         disabled={isAdding}
